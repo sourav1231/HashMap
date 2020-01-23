@@ -1,0 +1,15 @@
+import java.util.*;
+class Hashmapp
+{ 
+  public static void main(String[] args)
+  {
+    //creating first hashMap of student id and student name
+    HashMap<String,Integer> student=new HashMap<String,Integer>();
+    student.put("ram",1);
+    student.put("shyam",2);
+    student.put("ghanshaym",3);
+    student.put("rahul",4);
+      
+        System.out.println("keys contains in this map are:"+student.values());
+  }
+}
