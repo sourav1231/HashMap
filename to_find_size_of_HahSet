@@ -1,0 +1,17 @@
+import java.util.*;
+class Hashmapp
+{ 
+  public static void main(String[] args)
+  {
+    //creating hashMap of student id and student name
+    HashMap<String,Integer> student=new HashMap<String,Integer>();
+    student.put("ram",1);
+    student.put("shyam",2);
+    student.put("ghanshaym",3);
+    student.put("rahul",4);
+    
+    System.out.println("size of given hashet :");
+    System.out.println(student.size());
+
+  }
+}
